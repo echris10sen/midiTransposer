@@ -24,7 +24,8 @@ export class gameInit {
             console.log(this.deckOrder);
             console.log("Dealing");
             deal(this.initialBoard, this.deckOrder, this.cardList, this.activePlayers);
-            console.log("Cards have been Dealt");       
+            console.log("Cards have been Dealt");   
+            console.log(this.initialBoard);    
         });
     };
 
