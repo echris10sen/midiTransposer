@@ -9,7 +9,7 @@ export class gameInit {
     deckOrder;
     deckSize;
     cardList = [];
-    activePlayers = 6;
+    activePlayers = 4;
 
     gameInit(){
         console.log("Initializing");
