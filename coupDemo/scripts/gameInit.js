@@ -30,7 +30,7 @@ export class gameInit {
     };
 
     async getBoardData() {
-        const response = await fetch("http://192.168.1.103:3001");
+        const response = await fetch("http://192.168.1.103:3000");
         const jsonData = await response.json();
         this.data = jsonData;
         console.log("Game Data Recieved, setting game data");
